@@ -1,9 +1,17 @@
 import './App.css';
+import Background from './components/Background'
+import StoreListing from './compontents/StoreListing'
+import TopBar from './components/TopBar'
+
 
 function App() {
+
+
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Background />
+      <StoreListing />
     </div>
   );
 }
